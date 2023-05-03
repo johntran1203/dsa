@@ -3,7 +3,7 @@
 
 function containsDuplicate(nums) {
     //Create an empty set to store the unique elements of the array(something to store the array)
-    const set = new Sset()
+    const set = new Set()
     
     // Iterate through each element in the array
     for( const num of nums) {
